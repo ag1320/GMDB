@@ -1,0 +1,11 @@
+.my-search{
+    height: 75%;
+}
+
+main {
+    min-height: 90vh;
+}
+
+footer{
+    margin-top: auto;
+}
