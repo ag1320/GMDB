@@ -6,6 +6,57 @@ main {
     min-height: 90vh;
 }
 
+.login-grid{
+    display: grid;
+    height: 40%;
+    width: 50%;
+    grid-template: repeat(4, 1fr) / 1fr;
+}
+
+.email-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.email-card > label{
+    font-size: 150%;
+    width: 100%;
+    height: 30%;
+    margin-left: 2%;
+}
+
+.email-card > input{
+    height: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+}
+
+.password-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.password-card > label{
+    font-size: 150%;
+    width: 100%;
+    height: 30%;
+    margin-left: 2%;
+}
+
+.password-card > input{
+    height: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+}
+
+.login-button{
+    margin-left: 2%;
+}
+
 footer{
     margin-top: auto;
 }
